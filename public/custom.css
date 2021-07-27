@@ -9,6 +9,13 @@
 body {
   font-family: "Roboto", sans-serif;
 }
+
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 .header-bg {
   background-color: #fffbf0;
 }
@@ -28,8 +35,4 @@ body {
 }
 .jacket-bg {
   background-color: #f1f1f1;
-}
-
-.feature__content {
-  width: 489px;
 }

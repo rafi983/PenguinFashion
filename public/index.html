@@ -65,8 +65,10 @@
       <section class="woman__jackets my-10">
         <h2 class="uppercase text-4xl font-bold m-12">Woman Jackets</h2>
 
-        <div class="jackets grid md:grid-cols-3 justify-items-center">
-          <div class="jacket rounded-xl shadow-2xl w-3/4 h-full pb-5">
+        <div class="jackets grid md:grid-cols-3 justify-items-center gap-y-12">
+          <div
+            class="jacket rounded-xl shadow-2xl w-11/12 md:w-3/4 h-full pb-5"
+          >
             <div class="jacket-img">
               <img
                 src="./images/jacket-1.png "
@@ -92,7 +94,8 @@
                     px-5
                     py-2
                     rounded-xl
-                    ml-36
+                    ml-20
+                    md:ml-36
                   "
                 >
                   <svg
@@ -115,7 +118,9 @@
             </div>
           </div>
 
-          <div class="jacket rounded-xl shadow-2xl w-3/4 h-full pb-5">
+          <div
+            class="jacket rounded-xl shadow-2xl w-11/12 md:w-3/4 h-full pb-5"
+          >
             <div class="jacket-img">
               <img
                 src="./images/jacket-2.png "
@@ -139,7 +144,8 @@
                     px-5
                     py-2
                     rounded-xl
-                    ml-36
+                    ml-20
+                    md:ml-36
                   "
                 >
                   <svg
@@ -162,7 +168,9 @@
             </div>
           </div>
 
-          <div class="jacket rounded-xl shadow-2xl w-3/4 h-full pb-5">
+          <div
+            class="jacket rounded-xl shadow-2xl w-11/12 md:w-3/4 h-full pb-5"
+          >
             <div class="jacket-img">
               <img
                 src="./images/jacket-3.png "
@@ -188,7 +196,8 @@
                     px-5
                     py-2
                     rounded-xl
-                    ml-36
+                    ml-20
+                    md:ml-36
                   "
                 >
                   <svg
@@ -218,8 +227,10 @@
       <section class="woman__jackets my-10">
         <h2 class="uppercase text-4xl font-bold m-12">Man Jackets</h2>
 
-        <div class="jackets grid md:grid-cols-3 justify-items-center">
-          <div class="jacket rounded-xl shadow-2xl w-3/4 h-full pb-5">
+        <div class="jackets grid md:grid-cols-3 justify-items-center gap-y-12">
+          <div
+            class="jacket rounded-xl shadow-2xl w-11/12 md:w-3/4 h-full pb-5"
+          >
             <div class="jacket-img">
               <img
                 src="./images/jacket-4.png "
@@ -245,7 +256,8 @@
                     px-5
                     py-2
                     rounded-xl
-                    ml-36
+                    ml-20
+                    md:ml-36
                   "
                 >
                   <svg
@@ -268,7 +280,9 @@
             </div>
           </div>
 
-          <div class="jacket rounded-xl shadow-2xl w-3/4 h-full pb-5">
+          <div
+            class="jacket rounded-xl shadow-2xl w-11/12 md:w-3/4 h-full pb-5"
+          >
             <div class="jacket-img">
               <img
                 src="./images/jacket-5.png "
@@ -294,7 +308,8 @@
                     px-5
                     py-2
                     rounded-xl
-                    ml-36
+                    ml-20
+                    md:ml-36
                   "
                 >
                   <svg
@@ -317,7 +332,9 @@
             </div>
           </div>
 
-          <div class="jacket rounded-xl shadow-2xl w-3/4 h-full pb-5">
+          <div
+            class="jacket rounded-xl shadow-2xl w-11/12 md:w-3/4 h-full pb-5"
+          >
             <div class="jacket-img">
               <img
                 src="./images/jacket-6.png "
@@ -343,7 +360,8 @@
                     px-5
                     py-2
                     rounded-xl
-                    ml-36
+                    ml-20
+                    md:ml-36
                   "
                 >
                   <svg
@@ -370,16 +388,31 @@
 
       <!-- features -->
       <section class="features grid md:grid-cols-2 my-24 items-center">
-        <div class="feature-contents space-y-6">
+        <div class="feature-contents ml-4 sm:md-10 md:ml-0 space-y-6">
           <div
-            class="feature__content shadow pl-10 py-6 ml-24 flex items-center"
+            class="
+              feature__content
+              shadow
+              w-4/6
+              md:w-4/5
+              pl-4
+              md:pl-10
+              py-6
+              ml-8
+              md:ml-24
+              flex flex-col
+              md:flex-row
+              text-center
+              md:text-left
+              items-center
+            "
           >
             <img src="./icons/image 12.png" width="77px" height="82px" alt="" />
-            <div class="feature-info ml-4 space-y-2">
-              <h2 class="penguin-heading font-extrabold text-2xl">
+            <div class="feature-info -ml-5 md:ml-4 space-y-2">
+              <h2 class="penguin-heading font-extrabold text-sm md:text-2xl">
                 Find the Perfect Fit
               </h2>
-              <p>
+              <p class="w-96 md:w-full text-xs md:text-base">
                 Everybody is different, which is why we<br />
                 offer styles for every body.
               </p>
@@ -387,35 +420,72 @@
           </div>
 
           <div
-            class="feature__content shadow pl-10 py-6 ml-24 flex items-center"
+            class="
+              feature__content
+              shadow
+              w-4/6
+              md:w-4/5
+              pl-4
+              md:pl-10
+              py-6
+              ml-8
+              md:ml-24
+              flex flex-col
+              md:flex-row
+              text-center
+              md:text-left
+              items-center
+            "
           >
             <img src="./icons/image 12.png" width="77px" height="82px" alt="" />
-            <div class="feature-info ml-4 space-y-2">
-              <h2 class="penguin-heading font-extrabold text-2xl">
+            <div class="feature-info -ml-5 md:ml-4 space-y-2">
+              <h2 class="penguin-heading font-extrabold text-sm md:text-2xl">
                 Free Exchanges
               </h2>
-              <p>One of the many reasons you can shop with peace of mind.</p>
+              <p class="w-64 md:w-full text-xs md:text-base">
+                One of the many reasons you can shop<br />
+                with peace of mind.
+              </p>
             </div>
           </div>
 
           <div
-            class="feature__content shadow pl-10 py-6 ml-24 flex items-center"
+            class="
+              feature__content
+              shadow
+              w-4/6
+              md:w-4/5
+              pl-4
+              md:pl-10
+              py-6
+              ml-8
+              md:ml-24
+              flex flex-col
+              md:flex-row
+              text-center
+              md:text-left
+              items-center
+            "
           >
             <img src="./icons/image 12.png" width="77px" height="82px" alt="" />
-            <div class="feature-info ml-4 space-y-2">
-              <h2 class="penguin-heading font-extrabold text-2xl">
+            <div class="feature-info -ml-5 md:ml-4 space-y-2">
+              <h2 class="penguin-heading font-extrabold text-sm md:text-2xl">
                 Contact Our Seller
               </h2>
-              <p>
-                They are here to help you. That's quite literally what we pay
-                them for.
+              <p class="w-64 md:w-full text-xs md:text-base">
+                They are here to help you. That's quite literally<br />
+                what we pay them for.
               </p>
             </div>
           </div>
         </div>
 
-        <div class="feature-img">
-          <img src="./images/shopping.png" width="599px" alt="" />
+        <div class="feature-img ml-4 sm:md-10 md:ml-0">
+          <img
+            src="./images/shopping.png"
+            class="w-4/6 md:w-11/12 ml-5 my-12 md:m-0"
+            alt=""
+          />
         </div>
       </section>
     </main>
