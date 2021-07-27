@@ -15,10 +15,25 @@ body {
 .penguin {
   color: #fabe4c;
 }
-.winter {
+
+.winter,
+.woman__jackets > h2,
+.man__jackets > h2,
+.penguin-heading {
   color: #363958;
 }
 .penguin-btn {
   background-color: #a4bc46;
   color: #fff;
+}
+
+.jacket {
+  width: 340px;
+  height: 590px;
+}
+
+.jacket img {
+  background-color: #e5e5e5;
+  width: 300px;
+  height: 350px;
 }
