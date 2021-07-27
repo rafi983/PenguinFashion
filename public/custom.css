@@ -26,18 +26,10 @@ body {
   background-color: #a4bc46;
   color: #fff;
 }
-
-.jacket {
-  width: 380px;
-  height: 590px;
+.jacket-bg {
+  background-color: #f1f1f1;
 }
 
-.jacket img {
-  background-color: #e5e5e5;
-  padding: 2rem;
-  width: 340px;
-  height: 350px;
-}
 .feature__content {
   width: 489px;
 }

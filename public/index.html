@@ -23,13 +23,13 @@
       </nav>
 
       <div class="header__container mt-16 md:flex items-center">
-        <div class="header__content-left ml-52 space-y-6 uppercase">
+        <div class="header__content-left ml-5 md:ml-52 space-y-6 uppercase">
           <h1>
-            <span class="penguin text-6xl font-bold">Be the Penguins</span
+            <span class="penguin md:text-6xl font-bold">Be the Penguins</span
             ><br />
-            <span class="winter text-6xl font-bold">Of Winter</span>
+            <span class="winter md:text-6xl font-bold">Of Winter</span>
           </h1>
-          <p>
+          <p class="text-base md:text-lg w-60 md:w-full">
             Lorem Ipsum is simply dummy text of the printing<br />
             and typesetting industry.
           </p>
@@ -53,8 +53,8 @@
             Buy now
           </button>
         </div>
-        <div class="header__content-right ml-16">
-          <img src="./images/model.png" alt="" />
+        <div class="header__content-right mt-6 md:mt-0 -ml-2 md:ml-16">
+          <img src="./images/model.png" class="h-64 md:h-full" alt="" />
         </div>
       </div>
     </header>
@@ -66,29 +66,33 @@
         <h2 class="uppercase text-4xl font-bold m-12">Woman Jackets</h2>
 
         <div class="jackets grid md:grid-cols-3 justify-items-center">
-          <div class="jacket rounded-xl shadow-xl">
+          <div class="jacket rounded-xl shadow-2xl w-3/4 h-full pb-5">
             <div class="jacket-img">
-              <img src="./images/jacket-1.png" class="rounded-xl m-5" alt="" />
+              <img
+                src="./images/jacket-1.png "
+                class="rounded-xl m-4 h-96 p-10 w-11/12 jacket-bg"
+                alt=""
+              />
             </div>
-            <div class="jacket-detail">
-              <h2 class="m-5 text-2xl font-bold penguin-heading">
+            <div class="jacket-detail ml-3 space-y-5">
+              <h2 class="text-2xl font-bold penguin-heading">
                 Yellow Coat Jacket
               </h2>
-              <p class="m-5 text-black">
-                Lorem Ipsum is simply dummy text of the<br />
-                printing and typesetting industry.
+              <p class="text-black">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry.
               </p>
-              <div class="buy m-5">
-                <span class="price text-black font-bold text-2xl">$249</span>
+              <div class="buy">
+                <span class="price text-black font-bold text-3xl">$249</span>
                 <button
                   class="
                     penguin-btn
                     uppercase
                     font-semibold
                     px-5
-                    py-3
+                    py-2
                     rounded-xl
-                    ml-32
+                    ml-36
                   "
                 >
                   <svg
@@ -110,29 +114,32 @@
               </div>
             </div>
           </div>
-          <div class="jacket rounded-xl shadow-xl">
+
+          <div class="jacket rounded-xl shadow-2xl w-3/4 h-full pb-5">
             <div class="jacket-img">
-              <img src="./images/jacket-2.png" class="rounded-xl m-5" alt="" />
+              <img
+                src="./images/jacket-2.png "
+                class="rounded-xl m-4 h-96 w-11/12 p-10 jacket-bg"
+                alt=""
+              />
             </div>
-            <div class="jacket-detail">
-              <h2 class="m-5 text-2xl font-bold penguin-heading">
-                Ladies Jacket
-              </h2>
-              <p class="m-5 text-black">
-                Lorem Ipsum is simply dummy text of the<br />
-                printing and typesetting industry.
+            <div class="jacket-detail ml-3 space-y-5">
+              <h2 class="text-2xl font-bold penguin-heading">Ladies Jacket</h2>
+              <p class="text-black">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry.
               </p>
-              <div class="buy m-5">
-                <span class="price text-black font-bold text-2xl">$249</span>
+              <div class="buy">
+                <span class="price text-black font-bold text-3xl">$249</span>
                 <button
                   class="
                     penguin-btn
                     uppercase
                     font-semibold
                     px-5
-                    py-3
+                    py-2
                     rounded-xl
-                    ml-32
+                    ml-36
                   "
                 >
                   <svg
@@ -154,29 +161,34 @@
               </div>
             </div>
           </div>
-          <div class="jacket rounded-xl shadow-xl">
+
+          <div class="jacket rounded-xl shadow-2xl w-3/4 h-full pb-5">
             <div class="jacket-img">
-              <img src="./images/jacket-3.png" class="rounded-xl m-5" alt="" />
+              <img
+                src="./images/jacket-3.png "
+                class="rounded-xl m-4 h-96 w-11/12 p-10 jacket-bg"
+                alt=""
+              />
             </div>
-            <div class="jacket-detail">
-              <h2 class="m-5 text-2xl font-bold penguin-heading">
+            <div class="jacket-detail ml-3 space-y-5">
+              <h2 class="text-2xl font-bold penguin-heading">
                 Woman Leather Jacket
               </h2>
-              <p class="m-5 text-black">
-                Lorem Ipsum is simply dummy text of the<br />
-                printing and typesetting industry.
+              <p class="text-black">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry.
               </p>
-              <div class="buy m-5">
-                <span class="price text-black font-bold text-2xl">$249</span>
+              <div class="buy">
+                <span class="price text-black font-bold text-3xl">$249</span>
                 <button
                   class="
                     penguin-btn
                     uppercase
                     font-semibold
                     px-5
-                    py-3
+                    py-2
                     rounded-xl
-                    ml-32
+                    ml-36
                   "
                 >
                   <svg
@@ -201,34 +213,39 @@
         </div>
       </section>
 
-      <!-- man jackets -->
+      <!-- Man Jackets -->
 
-      <section class="man__jackets">
+      <section class="woman__jackets my-10">
         <h2 class="uppercase text-4xl font-bold m-12">Man Jackets</h2>
+
         <div class="jackets grid md:grid-cols-3 justify-items-center">
-          <div class="jacket rounded-xl shadow-xl">
+          <div class="jacket rounded-xl shadow-2xl w-3/4 h-full pb-5">
             <div class="jacket-img">
-              <img src="./images/jacket-4.png" class="rounded-xl m-5" alt="" />
+              <img
+                src="./images/jacket-4.png "
+                class="rounded-xl m-4 h-96 p-10 w-11/12 jacket-bg"
+                alt=""
+              />
             </div>
-            <div class="jacket-detail">
-              <h2 class="m-5 text-2xl font-bold penguin-heading">
+            <div class="jacket-detail ml-3 space-y-5">
+              <h2 class="text-2xl font-bold penguin-heading">
                 Snowboard Jacket Mens
               </h2>
-              <p class="m-5 text-black">
-                Lorem Ipsum is simply dummy text of the<br />
-                printing and typesetting industry.
+              <p class="text-black">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry.
               </p>
-              <div class="buy m-5">
-                <span class="price text-black font-bold text-2xl">$249</span>
+              <div class="buy">
+                <span class="price text-black font-bold text-3xl">$249</span>
                 <button
                   class="
                     penguin-btn
                     uppercase
                     font-semibold
                     px-5
-                    py-3
+                    py-2
                     rounded-xl
-                    ml-32
+                    ml-36
                   "
                 >
                   <svg
@@ -250,29 +267,34 @@
               </div>
             </div>
           </div>
-          <div class="jacket rounded-xl shadow-xl">
+
+          <div class="jacket rounded-xl shadow-2xl w-3/4 h-full pb-5">
             <div class="jacket-img">
-              <img src="./images/jacket-5.png" class="rounded-xl m-5" alt="" />
+              <img
+                src="./images/jacket-5.png "
+                class="rounded-xl m-4 h-96 w-11/12 p-10 jacket-bg"
+                alt=""
+              />
             </div>
-            <div class="jacket-detail">
-              <h2 class="m-5 text-2xl font-bold penguin-heading">
+            <div class="jacket-detail ml-3 space-y-5">
+              <h2 class="text-2xl font-bold penguin-heading">
                 Man Leather Jackets
               </h2>
-              <p class="m-5 text-black">
-                Lorem Ipsum is simply dummy text of the<br />
-                printing and typesetting industry.
+              <p class="text-black">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry.
               </p>
-              <div class="buy m-5">
-                <span class="price text-black font-bold text-2xl">$249</span>
+              <div class="buy">
+                <span class="price text-black font-bold text-3xl">$249</span>
                 <button
                   class="
                     penguin-btn
                     uppercase
                     font-semibold
                     px-5
-                    py-3
+                    py-2
                     rounded-xl
-                    ml-32
+                    ml-36
                   "
                 >
                   <svg
@@ -294,29 +316,34 @@
               </div>
             </div>
           </div>
-          <div class="jacket rounded-xl shadow-xl">
+
+          <div class="jacket rounded-xl shadow-2xl w-3/4 h-full pb-5">
             <div class="jacket-img">
-              <img src="./images/jacket-6.png" class="rounded-xl m-5" alt="" />
+              <img
+                src="./images/jacket-6.png "
+                class="rounded-xl m-4 h-96 w-11/12 p-10 jacket-bg"
+                alt=""
+              />
             </div>
-            <div class="jacket-detail">
-              <h2 class="m-5 text-2xl font-bold penguin-heading">
+            <div class="jacket-detail ml-3 space-y-5">
+              <h2 class="text-2xl font-bold penguin-heading">
                 Man Casual Jackets
               </h2>
-              <p class="m-5 text-black">
-                Lorem Ipsum is simply dummy text of the<br />
-                printing and typesetting industry.
+              <p class="text-black">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry.
               </p>
-              <div class="buy m-5">
-                <span class="price text-black font-bold text-2xl">$249</span>
+              <div class="buy">
+                <span class="price text-black font-bold text-3xl">$249</span>
                 <button
                   class="
                     penguin-btn
                     uppercase
                     font-semibold
                     px-5
-                    py-3
+                    py-2
                     rounded-xl
-                    ml-32
+                    ml-36
                   "
                 >
                   <svg
@@ -365,12 +392,9 @@
             <img src="./icons/image 12.png" width="77px" height="82px" alt="" />
             <div class="feature-info ml-4 space-y-2">
               <h2 class="penguin-heading font-extrabold text-2xl">
-                Find the Perfect Fit
+                Free Exchanges
               </h2>
-              <p>
-                Everybody is different, which is why we<br />
-                offer styles for every body.
-              </p>
+              <p>One of the many reasons you can shop with peace of mind.</p>
             </div>
           </div>
 
@@ -380,11 +404,11 @@
             <img src="./icons/image 12.png" width="77px" height="82px" alt="" />
             <div class="feature-info ml-4 space-y-2">
               <h2 class="penguin-heading font-extrabold text-2xl">
-                Find the Perfect Fit
+                Contact Our Seller
               </h2>
               <p>
-                Everybody is different, which is why we<br />
-                offer styles for every body.
+                They are here to help you. That's quite literally what we pay
+                them for.
               </p>
             </div>
           </div>
